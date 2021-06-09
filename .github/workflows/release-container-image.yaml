@@ -6,8 +6,8 @@ on:
   pull_request:
   push:
     branches: ghcr_test
-#    tags:
-#      - 'v*.*.*'
+    tags:
+      - 'v*.*.*'
 
 jobs:
   container:
